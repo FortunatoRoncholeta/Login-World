@@ -22,6 +22,7 @@ body{
     border: solid 10px rgb(9, 232, 32);
    
    
+   
 }
 
 
@@ -49,21 +50,18 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    /* largura 100% da tela usa % */
-    width: 100%;
-     /* altura 100% da tela */
-    height: 100vh;
+     align-items: center; 
     border: solid 10px #000;
     background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2015/10/20/821269/64a09c93bfc68fd073c6c57081bec291-700.jpg);
     background-size: cover;
     background-position: center center;
+    padding: 20px;
     
    
 }
 
 .card{
-   
+    
     border: solid 1px #000;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-radius: 4%;
